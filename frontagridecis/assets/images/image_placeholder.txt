@@ -1,0 +1,2 @@
+Ce fichier sert de placeholder pour l'image.png
+Vous pouvez remplacer ce fichier par une vraie image PNG pour le dashboard
