@@ -99,7 +99,8 @@ class _ConnexionadminpageState extends State<Connexionadminpage> {
                                   if (value == null || value.isEmpty) {
                                     return 'Veuillez entrer votre email';
                                   }
-                                  if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}\$').hasMatch(value)) {
+                                  // Regex plus permissive pour les emails
+                                  if (!RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$').hasMatch(value)) {
                                     return 'Veuillez entrer un email valide';
                                   }
                                   return null;

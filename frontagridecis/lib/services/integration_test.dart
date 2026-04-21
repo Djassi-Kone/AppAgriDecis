@@ -6,7 +6,7 @@ import'package:http/http.dart' as http;
 import 'api_config.dart';
 
 void main() async {
-  print('🚜 TEST D\'INTÉGRATION AGRIDECIS 🌾');
+  print(' TEST D\'INTÉGRATION AGRIDECIS ');
   print('====================================\n');
   
   // Test 1 : Vérifier que le backend est accessible
@@ -17,7 +17,7 @@ void main() async {
   print('\nTest 2: Test endpoint login...');
   await testLoginEndpoint();
   
-  print('\n✅ Tests terminés !');
+  print('\n Tests terminés !');
 }
 
 Future<void> testBackendConnection() async {

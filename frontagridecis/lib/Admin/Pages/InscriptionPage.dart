@@ -143,7 +143,7 @@ class _InscriptionPageState extends State<InscriptionPage> {
                               _buildTextField(
                                 controller: _telephoneController,
                                 label: 'Téléphone',
-                                hint: '+33 6 12 34 56 78',
+                                hint: '+223 70 34 56 78',
                                 icon: Icons.phone,
                                 keyboardType: TextInputType.phone,
                                 validator: (value) {
@@ -372,7 +372,7 @@ class _InscriptionPageState extends State<InscriptionPage> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('✅ Inscription réussie ! Vous pouvez maintenant vous connecter.'),
+            content: Text(' Inscription réussie ! Vous pouvez maintenant vous connecter.'),
             backgroundColor: Colors.green,
           ),
         );
@@ -382,7 +382,7 @@ class _InscriptionPageState extends State<InscriptionPage> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('❌ Erreur: ${e.toString()}'),
+            content: Text(' Erreur: ${e.toString()}'),
             backgroundColor: Colors.red,
           ),
         );

@@ -136,7 +136,7 @@ class HomeDashboard extends StatelessWidget {
                       const SizedBox(height: 50),
                       Row(
                         children: [
-                          Image.asset('assets/images/image.png', width: 60),
+                          Image.asset('assets/images/image.png', width: 50),
                           const SizedBox(width: 20),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,

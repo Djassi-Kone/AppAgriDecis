@@ -1,5 +1,7 @@
 from django.contrib.auth.models import AbstractUser, BaseUserManager
 from django.db import models
+from django.core.validators import RegexValidator
+from back_agridecis.validators import validate_phone_number, validate_role, validate_image_file
 
 ROLE_CHOICES = [
     ('admin', 'Administrateur'),
@@ -35,9 +37,26 @@ class User(AbstractUser):
     nom = models.CharField(max_length=150)
     prenom = models.CharField(max_length=150)
     email = models.EmailField(unique=True)
-    telephone = models.CharField(max_length=20, blank=True, null=True)
-    role = models.CharField(max_length=20, choices=ROLE_CHOICES, blank=True, null=True)
-    profile_photo = models.ImageField(upload_to='profile_photos/', blank=True, null=True)
+    telephone = models.CharField(
+        max_length=20, 
+        blank=True, 
+        null=True,
+        validators=[validate_phone_number],
+        help_text="Format: +221 77 123 45 67 ou 771234567"
+    )
+    role = models.CharField(
+        max_length=20, 
+        choices=ROLE_CHOICES, 
+        blank=True, 
+        null=True,
+        validators=[validate_role]
+    )
+    profile_photo = models.ImageField(
+        upload_to='profile_photos/', 
+        blank=True, 
+        null=True,
+        validators=[validate_image_file]
+    )
     dateCreation = models.DateTimeField(auto_now_add=True)
 
     # champs spécifiques

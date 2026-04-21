@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total": 13,
+    "successful": 10,
+    "failed": 3,
+    "success_rate": 76.92307692307693
+  },
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "message": "Status: 200",
+      "timestamp": "2026-04-07T22:44:34.440485"
+    },
+    {
+      "test": "API Info",
+      "success": true,
+      "message": "API: AgriDecis API",
+      "timestamp": "2026-04-07T22:44:34.448568"
+    },
+    {
+      "test": "Weather Forecast",
+      "success": true,
+      "message": "Lat: 14.75, Lon: -17.375",
+      "timestamp": "2026-04-07T22:44:35.622250"
+    },
+    {
+      "test": "Weather Alerts",
+      "success": true,
+      "message": "Alertes: 0",
+      "timestamp": "2026-04-07T22:44:36.696843"
+    },
+    {
+      "test": "Login admin",
+      "success": true,
+      "message": "Connecté: admin@agridecis.com",
+      "timestamp": "2026-04-07T22:44:38.240263"
+    },
+    {
+      "test": "User Profile",
+      "success": true,
+      "message": "Utilisateur: admin@agridecis.com, Rôle: admin",
+      "timestamp": "2026-04-07T22:44:38.259914"
+    },
+    {
+      "test": "Contents List",
+      "success": false,
+      "message": "Réponse API invalide",
+      "timestamp": "2026-04-07T22:44:38.317640"
+    },
+    {
+      "test": "Login agronome",
+      "success": true,
+      "message": "Connecté: agronome@agridecis.com",
+      "timestamp": "2026-04-07T22:44:40.405894"
+    },
+    {
+      "test": "User Profile",
+      "success": true,
+      "message": "Utilisateur: agronome@agridecis.com, Rôle: agronome",
+      "timestamp": "2026-04-07T22:44:40.431062"
+    },
+    {
+      "test": "Contents List",
+      "success": false,
+      "message": "Réponse API invalide",
+      "timestamp": "2026-04-07T22:44:40.523340"
+    },
+    {
+      "test": "Login agriculteur",
+      "success": true,
+      "message": "Connecté: agriculteur@agridecis.com",
+      "timestamp": "2026-04-07T22:44:42.748317"
+    },
+    {
+      "test": "User Profile",
+      "success": true,
+      "message": "Utilisateur: agriculteur@agridecis.com, Rôle: agriculteur",
+      "timestamp": "2026-04-07T22:44:42.766003"
+    },
+    {
+      "test": "Contents List",
+      "success": false,
+      "message": "Réponse API invalide",
+      "timestamp": "2026-04-07T22:44:42.819795"
+    }
+  ]
+}

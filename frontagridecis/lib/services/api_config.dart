@@ -1,75 +1,11 @@
-// import'package:flutter/foundation.dart';
-
-// class ApiConfig {
-//   // URL de base - À modifier selon l'environnement
-//   static const String _devBaseUrl = 'http://10.0.2.2:8000'; // Android Emulator
-//   static const String_webBaseUrl = 'http://localhost:8000'; // Web
-//   static const String _prodBaseUrl = 'https://votre-api-production.com';
-  
-//   static String get baseUrl {
-//     if (kDebugMode) {
-//       // En mode développement
-//       return _devBaseUrl;
-//     }
-//     return _prodBaseUrl;
-//   }
-
-//   // Endpoints d'authentification
-//   static String get loginEndpoint => '$baseUrl/api/login/';
-//   static String get inscriptionEndpoint => '$baseUrl/api/inscription/';
-//   static String get refreshEndpoint => '$baseUrl/api/refresh/';
-//   static String get passwordResetRequestEndpoint => '$baseUrl/api/password-reset/request/';
-//   static String get passwordResetConfirmEndpoint => '$baseUrl/api/password-reset/confirm/';
-//   static String get monProfilEndpoint => '$baseUrl/api/mon-profil/';
-//   static String get monHistoriqueEndpoint => '$baseUrl/api/mon-historique/';
-
-  
-
-//   // Endpoints Météo
-//   static String get previsionsEndpoint => '$baseUrl/api/meteo/previsions/';
-//   static String get seuilsAlerteEndpoint => '$baseUrl/api/meteo/seuils-alerte/';
-//   static String get parametresNotificationsEndpoint => '$baseUrl/api/meteo/parametres-notifications/';
-
-//   // Endpoints Diagnostic IA
-//   static String get diagnosticImageEndpoint => '$baseUrl/api/ia/diagnostic-image/';
-//   static String get mesDiagnosticsEndpoint => '$baseUrl/api/ia/mes-diagnostics/';
-//   static String detailDiagnosticEndpoint(String id) => '$baseUrl/api/ia/diagnostic/$id/';
-//   static String get chatConseilsEndpoint => '$baseUrl/api/ia/chat-conseils/';
-
-//   // Headers communs
-//   static Map<String, String> headers({String? token}) {
-//     final baseHeaders = {
-//       'Content-Type': 'application/json',
-//       'Accept': 'application/json',
-//     };
-//     if (token != null && token.isNotEmpty) {
-//       baseHeaders['Authorization'] = 'Bearer $token';
-//     }
-//     return baseHeaders;
-//   }
-
-//   // Headers pour upload de fichiers
-//   static Map<String, String> uploadHeaders({String? token}) {
-//     final baseHeaders = {
-//       'Accept': 'application/json',
-//     };
-//     if (token != null && token.isNotEmpty) {
-//       baseHeaders['Authorization'] = 'Bearer $token';
-//     }
-//     return baseHeaders;
-//   }
-// }
-
-
-
 import 'package:flutter/foundation.dart';
 
 class ApiConfig {
   // ================= BASE URL =================
 
-  static const String _devBaseUrlAndroid = 'http://10.0.2.2:8000';
-  static const String _devBaseUrlWeb = 'http://localhost:8000';
-  static const String _prodBaseUrl = 'https://votre-api-production.com';
+  static const String _devBaseUrlAndroid = 'http://10.211.99.210:8000';
+  static const String _devBaseUrlWeb = 'http://10.211.99.210:8000';
+  static const String _prodBaseUrl = 'https://10.211.99.210:8000';
 
   static String get baseUrl {
     if (kDebugMode) {
@@ -85,11 +21,11 @@ class ApiConfig {
 
   // ================= AUTH =================
 
-  static String get loginEndpoint => '$baseUrl/api/login/';
-  static String get inscriptionEndpoint => '$baseUrl/api/inscription/';
-  static String get refreshEndpoint => '$baseUrl/api/refresh/';
-  static String get meEndpoint => '$baseUrl/api/mon-profil/';
-  static String get monProfilEndpoint => '$baseUrl/api/mon-profil/';
+  static String get loginEndpoint => '$baseUrl/api/users/auth/login/';
+  static String get inscriptionEndpoint => '$baseUrl/api/users/auth/register/';
+  static String get refreshEndpoint => '$baseUrl/api/users/auth/token/refresh/';
+  static String get meEndpoint => '$baseUrl/api/users/auth/me/';
+  static String get monProfilEndpoint => '$baseUrl/api/profile/';
 
   static String get passwordResetRequestEndpoint =>
       '$baseUrl/api/password-reset/request/';
@@ -106,15 +42,36 @@ class ApiConfig {
       '$baseUrl/api/admin/users/';
 
   static String toggleUserEndpoint(String userId) =>
-      '$baseUrl/api/admin/users/$userId/toggle/';
+      '$baseUrl/api/admin/users/toggle/$userId/';
 
   static String deleteUserEndpoint(String userId) =>
-      '$baseUrl/api/admin/users/$userId/delete/';
+      '$baseUrl/api/admin/users/delete/$userId/';
 
   // ================= CONTENT =================
 
   static String get contentsEndpoint =>
       '$baseUrl/api/contents/';
+
+  static String get myContentsEndpoint =>
+      '$baseUrl/api/contents/my-contents/';
+
+  static String get myContentsAnalyticsEndpoint =>
+      '$baseUrl/api/contents/my-contents/analytics/';
+
+  static String contentCommentsEndpoint(String contentId) =>
+      '$baseUrl/api/contents/$contentId/comments/';
+
+  static String contentLikeEndpoint(String contentId) =>
+      '$baseUrl/api/contents/$contentId/like/';
+
+  static String contentViewEndpoint(String contentId) =>
+      '$baseUrl/api/contents/$contentId/view/';
+
+  static String get adminAllContentsEndpoint =>
+      '$baseUrl/api/contents/admin/all/';
+
+  static String adminDeleteContentEndpoint(String contentId) =>
+      '$baseUrl/api/contents/admin/$contentId/delete/';
 
   // ================= REPORTS =================
 
@@ -140,16 +97,19 @@ class ApiConfig {
   // ================= IA =================
 
   static String get diagnosticImageEndpoint =>
-      '$baseUrl/api/ia/diagnostic-image/';
+      '$baseUrl/api/ai/diagnosis/';
 
   static String get mesDiagnosticsEndpoint =>
-      '$baseUrl/api/ia/mes-diagnostics/';
+      '$baseUrl/api/ai/diagnosis/';
 
   static String detailDiagnosticEndpoint(String id) =>
-      '$baseUrl/api/ia/diagnostic/$id/';
+      '$baseUrl/api/ai/diagnosis/$id/';
 
   static String get chatConseilsEndpoint =>
-      '$baseUrl/api/ia/chat-conseils/';
+      '$baseUrl/api/ai/chat/';
+
+  static String get chatHistoryEndpoint =>
+      '$baseUrl/api/ai/chat/history/';
 
   // ================= HEADERS =================
 

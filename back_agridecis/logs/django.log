@@ -1,0 +1,478 @@
+INFO 2026-04-02 10:04:28,900 autoreload 4644 12928 Watching for file changes with StatReloader
+INFO 2026-04-02 10:08:21,562 autoreload 17536 17624 Watching for file changes with StatReloader
+INFO 2026-04-02 10:31:14,174 autoreload 17536 17624 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\ai\views.py changed, reloading.
+INFO 2026-04-02 10:31:18,717 autoreload 15276 12660 Watching for file changes with StatReloader
+INFO 2026-04-07 18:18:00,167 autoreload 12800 19544 Watching for file changes with StatReloader
+INFO 2026-04-07 18:40:16,630 autoreload 12800 19544 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\views.py changed, reloading.
+INFO 2026-04-07 18:40:20,938 autoreload 14480 13500 Watching for file changes with StatReloader
+INFO 2026-04-07 18:41:43,691 autoreload 20508 20804 Watching for file changes with StatReloader
+INFO 2026-04-07 18:42:28,123 autoreload 20492 5568 Watching for file changes with StatReloader
+INFO 2026-04-07 19:19:46,995 autoreload 22436 19036 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:23,980 autoreload 22436 19036 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\services.py changed, reloading.
+INFO 2026-04-07 21:43:24,009 autoreload 20492 5568 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\services.py changed, reloading.
+INFO 2026-04-07 21:43:28,539 autoreload 5808 19408 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:28,893 autoreload 19400 14952 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:33,407 autoreload 5808 19408 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\views.py changed, reloading.
+INFO 2026-04-07 21:43:33,484 autoreload 19400 14952 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\views.py changed, reloading.
+INFO 2026-04-07 21:43:36,411 autoreload 19368 20684 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:36,485 autoreload 17464 22036 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:40,704 autoreload 17464 22036 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\urls.py changed, reloading.
+INFO 2026-04-07 21:43:41,727 autoreload 19368 20684 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\weather\urls.py changed, reloading.
+INFO 2026-04-07 21:43:43,382 autoreload 3448 19236 Watching for file changes with StatReloader
+INFO 2026-04-07 21:43:44,096 autoreload 17964 19608 Watching for file changes with StatReloader
+INFO 2026-04-07 21:49:48,439 middleware 3448 21752 GET /api/weather/forecast/ - Status: 404 - Duration: 0.204s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 21:49:48,439 middleware 3448 21752 Error response - GET /api/weather/forecast/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 21:49:48,444 log 3448 21752 Not Found: /api/weather/forecast/
+WARNING 2026-04-07 21:49:48,446 basehttp 3448 21752 "GET /api/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 404 4416
+INFO 2026-04-07 21:49:57,820 middleware 3448 21752 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.343s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:49:57,824 basehttp 3448 21752 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12367
+INFO 2026-04-07 21:50:11,793 middleware 3448 21752 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 2.200s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:50:11,794 basehttp 3448 21752 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 21:56:53,503 autoreload 3448 19236 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\ai\apps.py changed, reloading.
+INFO 2026-04-07 21:56:53,507 autoreload 17964 19608 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\ai\apps.py changed, reloading.
+INFO 2026-04-07 21:56:58,000 autoreload 14048 20492 Watching for file changes with StatReloader
+INFO 2026-04-07 21:56:58,402 autoreload 16200 20268 Watching for file changes with StatReloader
+INFO 2026-04-07 21:57:06,028 middleware 14048 18584 GET /api/health/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:57:06,030 basehttp 14048 18584 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 21:57:06,034 middleware 14048 18584 GET /api/ - Status: 200 - Duration: 0.001s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:57:06,037 basehttp 14048 18584 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 21:57:07,649 middleware 14048 18584 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.605s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:57:07,657 basehttp 14048 18584 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12360
+INFO 2026-04-07 21:57:09,339 middleware 14048 18584 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.650s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:57:09,341 basehttp 14048 18584 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 21:57:09,387 middleware 14048 18584 POST /api/auth/login/ - Status: 404 - Duration: 0.033s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 21:57:09,387 middleware 14048 18584 Error response - POST /api/auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 21:57:09,390 log 14048 18584 Not Found: /api/auth/login/
+WARNING 2026-04-07 21:57:09,390 basehttp 14048 18584 "POST /api/auth/login/ HTTP/1.1" 404 3676
+INFO 2026-04-07 21:57:09,408 middleware 14048 18584 POST /api/auth/login/ - Status: 404 - Duration: 0.013s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 21:57:09,408 middleware 14048 18584 Error response - POST /api/auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 21:57:09,408 log 14048 18584 Not Found: /api/auth/login/
+WARNING 2026-04-07 21:57:09,408 basehttp 14048 18584 "POST /api/auth/login/ HTTP/1.1" 404 3676
+INFO 2026-04-07 21:57:09,423 middleware 14048 18584 POST /api/auth/login/ - Status: 404 - Duration: 0.009s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 21:57:09,423 middleware 14048 18584 Error response - POST /api/auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 21:57:09,423 log 14048 18584 Not Found: /api/auth/login/
+WARNING 2026-04-07 21:57:09,425 basehttp 14048 18584 "POST /api/auth/login/ HTTP/1.1" 404 3676
+INFO 2026-04-07 21:58:18,687 middleware 14048 13324 GET /api/health/ - Status: 200 - Duration: 0.001s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:18,688 basehttp 14048 13324 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 21:58:18,691 middleware 14048 13324 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:18,691 basehttp 14048 13324 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 21:58:20,140 middleware 14048 13324 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.444s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:20,141 basehttp 14048 13324 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12360
+INFO 2026-04-07 21:58:21,875 middleware 14048 13324 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.724s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:21,875 basehttp 14048 13324 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 21:58:24,198 middleware 14048 13324 POST /api/users/auth/login/ - Status: 200 - Duration: 2.314s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:24,200 basehttp 14048 13324 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 21:58:26,762 middleware 14048 13324 POST /api/users/auth/login/ - Status: 200 - Duration: 2.558s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:26,763 basehttp 14048 13324 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 21:58:29,135 middleware 14048 13324 POST /api/users/auth/login/ - Status: 200 - Duration: 2.368s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:29,139 basehttp 14048 13324 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 21:58:59,462 middleware 14048 21264 POST /api/users/auth/login/ - Status: 200 - Duration: 2.011s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 21:58:59,464 basehttp 14048 21264 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:01:13,756 middleware 14048 15012 GET /api/health/ - Status: 200 - Duration: 0.001s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:13,758 basehttp 14048 15012 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 22:01:13,764 middleware 14048 15012 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:13,767 basehttp 14048 15012 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 22:01:15,339 middleware 14048 15012 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.565s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:15,342 basehttp 14048 15012 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12360
+INFO 2026-04-07 22:01:16,880 middleware 14048 15012 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.533s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:16,882 basehttp 14048 15012 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 22:01:19,225 middleware 14048 15012 POST /api/users/auth/login/ - Status: 200 - Duration: 2.336s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:19,226 basehttp 14048 15012 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:01:19,235 middleware 14048 15012 GET /api/users/auth/me/ - Status: 200 - Duration: 0.006s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:01:19,235 basehttp 14048 15012 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+INFO 2026-04-07 22:01:19,333 middleware 14048 15012 GET /api/contents/ - Status: 200 - Duration: 0.087s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:01:19,336 basehttp 14048 15012 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:01:22,037 middleware 14048 15012 POST /api/users/auth/login/ - Status: 200 - Duration: 2.695s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:22,039 basehttp 14048 15012 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:01:22,051 middleware 14048 15012 GET /api/users/auth/me/ - Status: 200 - Duration: 0.008s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:01:22,063 basehttp 14048 15012 "GET /api/users/auth/me/ HTTP/1.1" 200 215
+INFO 2026-04-07 22:01:22,116 middleware 14048 15012 GET /api/contents/ - Status: 200 - Duration: 0.047s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:01:22,117 basehttp 14048 15012 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:01:24,312 middleware 14048 15012 POST /api/users/auth/login/ - Status: 200 - Duration: 2.186s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:01:24,313 basehttp 14048 15012 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:01:24,324 middleware 14048 15012 GET /api/users/auth/me/ - Status: 200 - Duration: 0.007s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:01:24,329 basehttp 14048 15012 "GET /api/users/auth/me/ HTTP/1.1" 200 223
+INFO 2026-04-07 22:01:24,367 middleware 14048 15012 GET /api/contents/ - Status: 200 - Duration: 0.036s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:01:24,369 basehttp 14048 15012 "GET /api/contents/ HTTP/1.1" 200 7354
+ERROR 2026-04-07 22:01:40,328 exceptions 14048 4460 Unhandled exception: InvalidToken: {'detail': ErrorDetail(string="Le type de jeton fourni n'est pas valide", code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]} - Context: {'view': <contents.views.ContentListCreateView object at 0x00000291C5C89C90>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:01:40,332 middleware 14048 4460 GET /api/contents/ - Status: 500 - Duration: 0.004s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 22:01:40,333 middleware 14048 4460 Error response - GET /api/contents/ - Status: 500 - User: anonymous
+ERROR 2026-04-07 22:01:40,333 log 14048 4460 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:01:40,334 basehttp 14048 4460 "GET /api/contents/ HTTP/1.1" 500 86
+INFO 2026-04-07 22:01:59,477 autoreload 14048 20492 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\serializers.py changed, reloading.
+INFO 2026-04-07 22:01:59,499 autoreload 16200 20268 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\serializers.py changed, reloading.
+INFO 2026-04-07 22:02:03,269 autoreload 16044 10844 Watching for file changes with StatReloader
+INFO 2026-04-07 22:02:03,481 autoreload 17396 2764 Watching for file changes with StatReloader
+INFO 2026-04-07 22:02:07,625 autoreload 16044 10844 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\serializers.py changed, reloading.
+INFO 2026-04-07 22:02:07,757 autoreload 17396 2764 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\serializers.py changed, reloading.
+INFO 2026-04-07 22:02:10,724 autoreload 12876 9332 Watching for file changes with StatReloader
+INFO 2026-04-07 22:02:10,819 autoreload 16668 21432 Watching for file changes with StatReloader
+INFO 2026-04-07 22:02:58,598 middleware 12876 12712 GET /api/health/ - Status: 200 - Duration: 0.002s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:02:58,599 basehttp 12876 12712 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 22:02:58,603 middleware 12876 12712 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:02:58,604 basehttp 12876 12712 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 22:03:00,294 middleware 12876 12712 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.680s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:03:00,296 basehttp 12876 12712 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12361
+INFO 2026-04-07 22:03:01,850 middleware 12876 12712 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.549s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:03:01,852 basehttp 12876 12712 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 22:03:04,352 middleware 12876 12712 POST /api/users/auth/login/ - Status: 200 - Duration: 2.491s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:03:04,354 basehttp 12876 12712 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:03:04,366 middleware 12876 12712 GET /api/users/auth/me/ - Status: 200 - Duration: 0.009s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:03:04,372 basehttp 12876 12712 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+INFO 2026-04-07 22:03:04,434 middleware 12876 12712 GET /api/contents/ - Status: 200 - Duration: 0.058s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:03:04,436 basehttp 12876 12712 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:03:07,411 middleware 12876 12712 POST /api/users/auth/login/ - Status: 200 - Duration: 2.971s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:03:07,413 basehttp 12876 12712 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:03:07,424 middleware 12876 12712 GET /api/users/auth/me/ - Status: 200 - Duration: 0.008s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:03:07,426 basehttp 12876 12712 "GET /api/users/auth/me/ HTTP/1.1" 200 215
+INFO 2026-04-07 22:03:07,497 middleware 12876 12712 GET /api/contents/ - Status: 200 - Duration: 0.046s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:03:07,507 basehttp 12876 12712 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:03:09,663 middleware 12876 12712 POST /api/users/auth/login/ - Status: 200 - Duration: 2.150s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:03:09,665 basehttp 12876 12712 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:03:09,677 middleware 12876 12712 GET /api/users/auth/me/ - Status: 200 - Duration: 0.009s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:03:09,684 basehttp 12876 12712 "GET /api/users/auth/me/ HTTP/1.1" 200 223
+INFO 2026-04-07 22:03:09,723 middleware 12876 12712 GET /api/contents/ - Status: 200 - Duration: 0.035s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:03:09,733 basehttp 12876 12712 "GET /api/contents/ HTTP/1.1" 200 7354
+ERROR 2026-04-07 22:03:35,455 exceptions 12876 7492 Unhandled exception: InvalidToken: {'detail': ErrorDetail(string="Le type de jeton fourni n'est pas valide", code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is invalid', code='token_not_valid')}]} - Context: {'view': <contents.views.ContentListCreateView object at 0x000001A38AB00910>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:03:35,455 middleware 12876 7492 GET /api/contents/ - Status: 500 - Duration: 0.002s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 22:03:35,456 middleware 12876 7492 Error response - GET /api/contents/ - Status: 500 - User: anonymous
+ERROR 2026-04-07 22:03:35,458 log 12876 7492 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:03:35,459 basehttp 12876 7492 "GET /api/contents/ HTTP/1.1" 500 86
+INFO 2026-04-07 22:06:31,376 middleware 12876 14936 GET /api/health/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:31,377 basehttp 12876 14936 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 22:06:31,381 middleware 12876 14936 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:31,382 basehttp 12876 14936 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 22:06:33,198 middleware 12876 14936 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.813s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:33,199 basehttp 12876 14936 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12360
+INFO 2026-04-07 22:06:34,557 middleware 12876 14936 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.354s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:34,558 basehttp 12876 14936 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 22:06:36,598 middleware 12876 14936 POST /api/users/auth/login/ - Status: 200 - Duration: 2.039s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:36,600 basehttp 12876 14936 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:06:36,611 middleware 12876 14936 GET /api/users/auth/me/ - Status: 200 - Duration: 0.008s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:06:36,620 basehttp 12876 14936 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+INFO 2026-04-07 22:06:36,662 middleware 12876 14936 GET /api/contents/ - Status: 200 - Duration: 0.038s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:06:36,669 basehttp 12876 14936 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:06:39,398 middleware 12876 14936 POST /api/users/auth/login/ - Status: 200 - Duration: 2.724s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:39,401 basehttp 12876 14936 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:06:39,414 middleware 12876 14936 GET /api/users/auth/me/ - Status: 200 - Duration: 0.010s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:06:39,420 basehttp 12876 14936 "GET /api/users/auth/me/ HTTP/1.1" 200 215
+INFO 2026-04-07 22:06:39,470 middleware 12876 14936 GET /api/contents/ - Status: 200 - Duration: 0.046s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:06:39,471 basehttp 12876 14936 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:06:41,606 middleware 12876 14936 POST /api/users/auth/login/ - Status: 200 - Duration: 2.132s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:06:41,608 basehttp 12876 14936 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:06:41,623 middleware 12876 14936 GET /api/users/auth/me/ - Status: 200 - Duration: 0.009s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:06:41,640 basehttp 12876 14936 "GET /api/users/auth/me/ HTTP/1.1" 200 223
+INFO 2026-04-07 22:06:41,693 middleware 12876 14936 GET /api/contents/ - Status: 200 - Duration: 0.047s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:06:41,702 basehttp 12876 14936 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:25:07,569 autoreload 13500 13620 Watching for file changes with StatReloader
+ERROR 2026-04-07 22:43:14,461 exceptions 10744 14940 Unhandled exception: NotAuthenticated: Informations d'authentification non fournies. - Context: {'view': <contents.views.ContentListCreateView object at 0x000001A7DEEB1110>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:43:21,707 autoreload 13500 13620 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\views.py changed, reloading.
+INFO 2026-04-07 22:43:24,640 autoreload 4476 3812 Watching for file changes with StatReloader
+INFO 2026-04-07 22:43:36,176 middleware 4476 9164 GET /api/health/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:36,191 basehttp 4476 9164 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 22:43:36,197 middleware 4476 9164 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:36,197 basehttp 4476 9164 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 22:43:37,547 middleware 4476 9164 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.350s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:37,553 basehttp 4476 9164 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12359
+INFO 2026-04-07 22:43:38,549 middleware 4476 9164 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 0.990s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:38,549 basehttp 4476 9164 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 22:43:40,523 middleware 4476 9164 POST /api/users/auth/login/ - Status: 200 - Duration: 1.962s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:40,523 basehttp 4476 9164 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:43:40,541 middleware 4476 9164 GET /api/users/auth/me/ - Status: 200 - Duration: 0.006s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:43:40,548 basehttp 4476 9164 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+ERROR 2026-04-07 22:43:40,558 exceptions 4476 9164 Unhandled exception: TypeError: AllowAny.has_permission() missing 1 required positional argument: 'view' - Context: {'view': <contents.views.ContentListCreateView object at 0x000001276FE04FD0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:43:40,561 middleware 4476 9164 GET /api/contents/ - Status: 500 - Duration: 0.009s - IP: 127.0.0.1 - User: admin@agridecis.com
+WARNING 2026-04-07 22:43:40,561 middleware 4476 9164 Error response - GET /api/contents/ - Status: 500 - User: admin@agridecis.com
+ERROR 2026-04-07 22:43:40,571 log 4476 9164 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:43:40,578 basehttp 4476 9164 "GET /api/contents/ HTTP/1.1" 500 86
+INFO 2026-04-07 22:43:42,984 middleware 4476 9164 POST /api/users/auth/login/ - Status: 200 - Duration: 2.398s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:42,986 basehttp 4476 9164 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:43:43,000 middleware 4476 9164 GET /api/users/auth/me/ - Status: 200 - Duration: 0.009s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:43:43,008 basehttp 4476 9164 "GET /api/users/auth/me/ HTTP/1.1" 200 215
+ERROR 2026-04-07 22:43:43,018 exceptions 4476 9164 Unhandled exception: TypeError: AllowAny.has_permission() missing 1 required positional argument: 'view' - Context: {'view': <contents.views.ContentListCreateView object at 0x000001276FCBFE90>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:43:43,044 middleware 4476 9164 GET /api/contents/ - Status: 500 - Duration: 0.032s - IP: 127.0.0.1 - User: agronome@agridecis.com
+WARNING 2026-04-07 22:43:43,128 middleware 4476 9164 Error response - GET /api/contents/ - Status: 500 - User: agronome@agridecis.com
+ERROR 2026-04-07 22:43:43,139 log 4476 9164 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:43:43,142 basehttp 4476 9164 "GET /api/contents/ HTTP/1.1" 500 86
+INFO 2026-04-07 22:43:44,970 middleware 4476 9164 POST /api/users/auth/login/ - Status: 200 - Duration: 1.818s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:43:44,970 basehttp 4476 9164 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:43:44,982 middleware 4476 9164 GET /api/users/auth/me/ - Status: 200 - Duration: 0.012s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:43:44,982 basehttp 4476 9164 "GET /api/users/auth/me/ HTTP/1.1" 200 223
+ERROR 2026-04-07 22:43:44,991 exceptions 4476 9164 Unhandled exception: TypeError: AllowAny.has_permission() missing 1 required positional argument: 'view' - Context: {'view': <contents.views.ContentListCreateView object at 0x000001276FDDDE10>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:43:44,991 middleware 4476 9164 GET /api/contents/ - Status: 500 - Duration: 0.001s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+WARNING 2026-04-07 22:43:44,995 middleware 4476 9164 Error response - GET /api/contents/ - Status: 500 - User: agriculteur@agridecis.com
+ERROR 2026-04-07 22:43:44,995 log 4476 9164 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:43:44,995 basehttp 4476 9164 "GET /api/contents/ HTTP/1.1" 500 86
+ERROR 2026-04-07 22:43:54,059 exceptions 4476 7760 Unhandled exception: TypeError: AllowAny.has_permission() missing 1 required positional argument: 'view' - Context: {'view': <contents.views.ContentListCreateView object at 0x000001276FE04910>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:43:54,059 middleware 4476 7760 GET /api/contents/ - Status: 500 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 22:43:54,060 middleware 4476 7760 Error response - GET /api/contents/ - Status: 500 - User: anonymous
+ERROR 2026-04-07 22:43:54,060 log 4476 7760 Internal Server Error: /api/contents/
+ERROR 2026-04-07 22:43:54,061 basehttp 4476 7760 "GET /api/contents/ HTTP/1.1" 500 86
+ERROR 2026-04-07 22:44:06,629 exceptions 15788 13676 Unhandled exception: TypeError: AllowAny.has_permission() missing 1 required positional argument: 'view' - Context: {'view': <contents.views.ContentListCreateView object at 0x00000197EBD90DD0>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/contents/'>}
+INFO 2026-04-07 22:44:11,897 autoreload 4476 3812 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\contents\views.py changed, reloading.
+INFO 2026-04-07 22:44:13,682 autoreload 15860 14852 Watching for file changes with StatReloader
+INFO 2026-04-07 22:44:34,440 middleware 15860 4444 GET /api/health/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:34,440 basehttp 15860 4444 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-07 22:44:34,446 middleware 15860 4444 GET /api/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:34,447 basehttp 15860 4444 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-07 22:44:35,613 middleware 15860 4444 GET /api/weather/weather/forecast/ - Status: 200 - Duration: 1.163s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:35,616 basehttp 15860 4444 "GET /api/weather/weather/forecast/?lat=14.7&lon=-17.5 HTTP/1.1" 200 12360
+INFO 2026-04-07 22:44:36,693 middleware 15860 4444 GET /api/weather/weather/alerts/ - Status: 200 - Duration: 1.069s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:36,693 basehttp 15860 4444 "GET /api/weather/weather/alerts/?lat=14.7&lon=-17.5 HTTP/1.1" 200 111
+INFO 2026-04-07 22:44:38,232 middleware 15860 4444 POST /api/users/auth/login/ - Status: 200 - Duration: 1.535s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:38,232 basehttp 15860 4444 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:44:38,250 middleware 15860 4444 GET /api/users/auth/me/ - Status: 200 - Duration: 0.008s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:44:38,257 basehttp 15860 4444 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+INFO 2026-04-07 22:44:38,312 middleware 15860 4444 GET /api/contents/ - Status: 200 - Duration: 0.050s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 22:44:38,312 basehttp 15860 4444 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:44:40,405 middleware 15860 4444 POST /api/users/auth/login/ - Status: 200 - Duration: 2.085s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:40,405 basehttp 15860 4444 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:44:40,415 middleware 15860 4444 GET /api/users/auth/me/ - Status: 200 - Duration: 0.005s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:44:40,420 basehttp 15860 4444 "GET /api/users/auth/me/ HTTP/1.1" 200 215
+INFO 2026-04-07 22:44:40,463 middleware 15860 4444 GET /api/contents/ - Status: 200 - Duration: 0.033s - IP: 127.0.0.1 - User: agronome@agridecis.com
+INFO 2026-04-07 22:44:40,518 basehttp 15860 4444 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:44:42,748 middleware 15860 4444 POST /api/users/auth/login/ - Status: 200 - Duration: 2.220s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:42,748 basehttp 15860 4444 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 22:44:42,755 middleware 15860 4444 GET /api/users/auth/me/ - Status: 200 - Duration: 0.007s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:44:42,755 basehttp 15860 4444 "GET /api/users/auth/me/ HTTP/1.1" 200 223
+INFO 2026-04-07 22:44:42,817 middleware 15860 4444 GET /api/contents/ - Status: 200 - Duration: 0.052s - IP: 127.0.0.1 - User: agriculteur@agridecis.com
+INFO 2026-04-07 22:44:42,819 basehttp 15860 4444 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:44:50,555 middleware 15860 12592 GET /api/contents/ - Status: 200 - Duration: 0.021s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 22:44:50,556 basehttp 15860 12592 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 22:50:13,056 autoreload 2864 16076 Watching for file changes with StatReloader
+INFO 2026-04-07 22:57:59,969 basehttp 2864 16264 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+INFO 2026-04-07 22:58:00,068 middleware 2864 16264 POST /api/auth/login/ - Status: 404 - Duration: 0.086s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 22:58:00,068 middleware 2864 16264 Error response - POST /api/auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 22:58:00,069 log 2864 16264 Not Found: /api/auth/login/
+WARNING 2026-04-07 22:58:00,069 basehttp 2864 16264 "POST /api/auth/login/ HTTP/1.1" 404 3676
+INFO 2026-04-07 22:59:12,585 middleware 2864 14580 POST /api/auth/login/ - Status: 404 - Duration: 0.016s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-07 22:59:12,585 middleware 2864 14580 Error response - POST /api/auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-07 22:59:12,585 log 2864 14580 Not Found: /api/auth/login/
+WARNING 2026-04-07 22:59:12,590 basehttp 2864 14580 "POST /api/auth/login/ HTTP/1.1" 404 3676
+INFO 2026-04-07 23:12:11,165 basehttp 2864 16492 "OPTIONS /api/users/auth/login/ HTTP/1.1" 200 0
+INFO 2026-04-07 23:12:14,574 middleware 2864 16492 POST /api/users/auth/login/ - Status: 200 - Duration: 3.191s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:12:14,580 basehttp 2864 16492 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-07 23:12:14,619 basehttp 2864 16492 "OPTIONS /api/users/auth/me/ HTTP/1.1" 200 0
+INFO 2026-04-07 23:12:14,703 middleware 2864 16492 GET /api/users/auth/me/ - Status: 200 - Duration: 0.049s - IP: 127.0.0.1 - User: admin@agridecis.com
+INFO 2026-04-07 23:12:14,753 basehttp 2864 16492 "GET /api/users/auth/me/ HTTP/1.1" 200 213
+INFO 2026-04-07 23:13:40,712 basehttp 2864 5252 "OPTIONS /api/contents/ HTTP/1.1" 200 0
+INFO 2026-04-07 23:13:40,873 middleware 2864 5252 GET /api/contents/ - Status: 200 - Duration: 0.157s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:13:40,874 basehttp 2864 5252 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 23:13:58,075 middleware 2864 5252 GET /api/contents/ - Status: 200 - Duration: 0.030s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:13:58,076 basehttp 2864 5252 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 23:14:03,417 middleware 2864 5252 GET /api/contents/ - Status: 200 - Duration: 0.035s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:14:03,418 basehttp 2864 5252 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 23:18:48,523 basehttp 2864 6752 "OPTIONS /api/contents/ HTTP/1.1" 200 0
+INFO 2026-04-07 23:18:48,575 middleware 2864 6752 GET /api/contents/ - Status: 200 - Duration: 0.050s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:18:48,579 basehttp 2864 6752 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-07 23:30:46,555 middleware 2864 12320 GET /api/contents/ - Status: 200 - Duration: 0.129s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-07 23:30:46,558 basehttp 2864 12320 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-08 00:13:54,912 middleware 2864 15196 GET /api/contents/ - Status: 200 - Duration: 0.067s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-08 00:13:54,915 basehttp 2864 15196 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-08 00:14:19,640 middleware 2864 5032 GET /api/contents/ - Status: 200 - Duration: 0.035s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-08 00:14:19,641 basehttp 2864 5032 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-20 22:24:33,999 autoreload 10688 10404 Watching for file changes with StatReloader
+INFO 2026-04-20 22:25:44,106 middleware 10688 22256 GET / - Status: 404 - Duration: 0.419s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:25:44,108 middleware 10688 22256 Error response - GET / - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:25:44,116 log 10688 22256 Not Found: /
+WARNING 2026-04-20 22:25:44,119 basehttp 10688 22256 "GET / HTTP/1.1" 404 3612
+INFO 2026-04-20 22:25:44,334 middleware 10688 22256 GET /favicon.ico - Status: 404 - Duration: 0.015s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:25:44,360 middleware 10688 22256 Error response - GET /favicon.ico - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:25:44,387 log 10688 22256 Not Found: /favicon.ico
+WARNING 2026-04-20 22:25:44,399 basehttp 10688 22256 "GET /favicon.ico HTTP/1.1" 404 3663
+INFO 2026-04-20 22:27:52,991 middleware 10688 22256 GET /api/health/ - Status: 200 - Duration: 0.000s - IP: 127.0.0.1 - User: anonymous
+INFO 2026-04-20 22:27:52,995 basehttp 10688 22256 "GET /api/health/ HTTP/1.1" 200 70
+INFO 2026-04-20 22:28:32,033 middleware 10688 22256 GET /api/users/ - Status: 404 - Duration: 0.018s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:28:32,055 middleware 10688 22256 Error response - GET /api/users/ - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:28:32,099 log 10688 22256 Not Found: /api/users/
+WARNING 2026-04-20 22:28:32,110 basehttp 10688 22256 "GET /api/users/ HTTP/1.1" 404 6321
+INFO 2026-04-20 22:29:01,063 middleware 10688 22256 GET /api/weather/ - Status: 404 - Duration: 0.013s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:29:01,064 middleware 10688 22256 Error response - GET /api/weather/ - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:29:01,065 log 10688 22256 Not Found: /api/weather/
+WARNING 2026-04-20 22:29:01,066 basehttp 10688 22256 "GET /api/weather/ HTTP/1.1" 404 4366
+INFO 2026-04-20 22:29:31,535 middleware 10688 22256 GET /api/weather/ weather/current/ - Status: 404 - Duration: 0.019s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:29:31,549 middleware 10688 22256 Error response - GET /api/weather/ weather/current/ - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:29:31,552 log 10688 22256 Not Found: /api/weather/ weather/current/
+WARNING 2026-04-20 22:29:31,553 basehttp 10688 22256 "GET /api/weather/%20weather/current/ HTTP/1.1" 404 4419
+INFO 2026-04-20 22:29:35,830 middleware 10688 22256 GET /api/weather/ weather/current/ - Status: 404 - Duration: 0.012s - IP: 127.0.0.1 - User: anonymous
+WARNING 2026-04-20 22:29:35,832 middleware 10688 22256 Error response - GET /api/weather/ weather/current/ - Status: 404 - User: anonymous
+WARNING 2026-04-20 22:29:35,833 log 10688 22256 Not Found: /api/weather/ weather/current/
+WARNING 2026-04-20 22:29:35,834 basehttp 10688 22256 "GET /api/weather/%20weather/current/ HTTP/1.1" 404 4419
+INFO 2026-04-20 23:01:11,337 autoreload 10688 10404 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:01:24,292 autoreload 3624 7700 Watching for file changes with StatReloader
+INFO 2026-04-20 23:01:30,439 autoreload 3624 7700 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:01:36,030 autoreload 15324 15144 Watching for file changes with StatReloader
+INFO 2026-04-20 23:01:50,531 autoreload 15324 15144 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:01:58,606 autoreload 21964 17808 Watching for file changes with StatReloader
+INFO 2026-04-20 23:02:32,679 autoreload 21964 17808 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:02:40,413 autoreload 4284 20564 Watching for file changes with StatReloader
+INFO 2026-04-20 23:02:50,816 autoreload 4284 20564 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:02:56,040 autoreload 19536 21796 Watching for file changes with StatReloader
+INFO 2026-04-20 23:04:04,645 autoreload 19536 21796 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:04:14,815 autoreload 7832 1996 Watching for file changes with StatReloader
+INFO 2026-04-20 23:04:22,495 autoreload 7832 1996 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:04:31,829 autoreload 2268 19040 Watching for file changes with StatReloader
+INFO 2026-04-20 23:04:41,091 autoreload 2268 19040 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:04:49,448 autoreload 6464 23068 Watching for file changes with StatReloader
+INFO 2026-04-20 23:05:07,213 autoreload 6464 23068 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:05:13,648 autoreload 1200 4132 Watching for file changes with StatReloader
+INFO 2026-04-20 23:18:40,517 autoreload 1200 4132 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:18:47,426 autoreload 13808 3400 Watching for file changes with StatReloader
+INFO 2026-04-20 23:18:54,901 autoreload 13808 3400 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:19:03,432 autoreload 14992 5220 Watching for file changes with StatReloader
+INFO 2026-04-20 23:19:09,527 autoreload 14992 5220 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-20 23:19:12,889 autoreload 11000 17284 Watching for file changes with StatReloader
+INFO 2026-04-20 23:42:56,236 autoreload 12944 3324 Watching for file changes with StatReloader
+INFO 2026-04-21 03:55:31,849 autoreload 1528 14724 Watching for file changes with StatReloader
+ERROR 2026-04-21 03:58:44,689 log 1528 13700 Invalid HTTP_HOST header: '10.211.99.210:8000'. You may need to add '10.211.99.210' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.211.99.210:8000'. You may need to add '10.211.99.210' to ALLOWED_HOSTS.
+WARNING 2026-04-21 03:58:44,817 basehttp 1528 13700 "GET / HTTP/1.1" 400 80139
+ERROR 2026-04-21 03:58:45,489 log 1528 6768 Invalid HTTP_HOST header: '10.211.99.210:8000'. You may need to add '10.211.99.210' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELLi5\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\http\request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '10.211.99.210:8000'. You may need to add '10.211.99.210' to ALLOWED_HOSTS.
+WARNING 2026-04-21 03:58:45,545 basehttp 1528 6768 "GET /favicon.ico HTTP/1.1" 400 80196
+INFO 2026-04-21 04:03:32,603 autoreload 1528 14724 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:03:42,845 autoreload 24796 22560 Watching for file changes with StatReloader
+INFO 2026-04-21 04:03:51,519 autoreload 24796 22560 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:03:54,933 autoreload 22788 24652 Watching for file changes with StatReloader
+INFO 2026-04-21 04:06:21,880 autoreload 9156 18352 Watching for file changes with StatReloader
+INFO 2026-04-21 04:06:29,568 middleware 9156 12408 GET / - Status: 404 - Duration: 0.333s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:06:29,569 middleware 9156 12408 Error response - GET / - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:06:29,573 log 9156 12408 Not Found: /
+WARNING 2026-04-21 04:06:29,574 basehttp 9156 12408 "GET / HTTP/1.1" 404 3616
+INFO 2026-04-21 04:06:29,697 middleware 9156 12408 GET /favicon.ico - Status: 404 - Duration: 0.016s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:06:29,699 middleware 9156 12408 Error response - GET /favicon.ico - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:06:29,705 log 9156 12408 Not Found: /favicon.ico
+WARNING 2026-04-21 04:06:29,754 basehttp 9156 12408 "GET /favicon.ico HTTP/1.1" 404 3667
+INFO 2026-04-21 04:08:43,536 middleware 9156 12408 GET /api/admin - Status: 404 - Duration: 0.014s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:08:43,541 middleware 9156 12408 Error response - GET /api/admin - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:08:43,542 log 9156 12408 Not Found: /api/admin
+WARNING 2026-04-21 04:08:43,543 basehttp 9156 12408 "GET /api/admin HTTP/1.1" 404 3661
+INFO 2026-04-21 04:09:10,095 middleware 9156 12408 GET /api/admi/weather - Status: 404 - Duration: 0.010s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:09:10,097 middleware 9156 12408 Error response - GET /api/admi/weather - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:09:10,098 log 9156 12408 Not Found: /api/admi/weather
+WARNING 2026-04-21 04:09:10,099 basehttp 9156 12408 "GET /api/admi/weather HTTP/1.1" 404 3682
+INFO 2026-04-21 04:09:19,873 middleware 9156 12408 GET /api/admi/weather/ - Status: 404 - Duration: 0.010s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:09:19,881 middleware 9156 12408 Error response - GET /api/admi/weather/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:09:19,891 log 9156 12408 Not Found: /api/admi/weather/
+WARNING 2026-04-21 04:09:19,892 basehttp 9156 12408 "GET /api/admi/weather/ HTTP/1.1" 404 3685
+INFO 2026-04-21 04:09:33,605 middleware 9156 12408 GET /api/admin/weather/ - Status: 404 - Duration: 0.011s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:09:33,612 middleware 9156 12408 Error response - GET /api/admin/weather/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:09:33,613 log 9156 12408 Not Found: /api/admin/weather/
+WARNING 2026-04-21 04:09:33,614 basehttp 9156 12408 "GET /api/admin/weather/ HTTP/1.1" 404 3688
+INFO 2026-04-21 04:09:41,547 middleware 9156 12408 GET /api/weather/ - Status: 404 - Duration: 0.012s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:09:41,548 middleware 9156 12408 Error response - GET /api/weather/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:09:41,549 log 9156 12408 Not Found: /api/weather/
+WARNING 2026-04-21 04:09:41,549 basehttp 9156 12408 "GET /api/weather/ HTTP/1.1" 404 4370
+INFO 2026-04-21 04:10:00,131 middleware 9156 12408 GET /api/weather/ - Status: 404 - Duration: 0.017s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:10:00,134 middleware 9156 12408 Error response - GET /api/weather/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:10:00,138 log 9156 12408 Not Found: /api/weather/
+WARNING 2026-04-21 04:10:00,140 basehttp 9156 12408 "GET /api/weather/ HTTP/1.1" 404 4370
+INFO 2026-04-21 04:10:05,218 middleware 9156 12408 GET /api/ - Status: 200 - Duration: 0.000s - IP: 10.211.99.210 - User: anonymous
+INFO 2026-04-21 04:10:05,220 basehttp 9156 12408 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-21 04:23:44,306 autoreload 9156 18352 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:23:54,254 autoreload 10052 23820 Watching for file changes with StatReloader
+INFO 2026-04-21 04:26:30,903 autoreload 10052 23820 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:26:34,868 autoreload 25196 23940 Watching for file changes with StatReloader
+INFO 2026-04-21 04:26:40,208 autoreload 25196 23940 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:26:46,882 autoreload 24688 22280 Watching for file changes with StatReloader
+INFO 2026-04-21 04:28:09,910 autoreload 10572 7072 Watching for file changes with StatReloader
+INFO 2026-04-21 04:29:22,947 autoreload 10572 7072 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:29:28,981 autoreload 24068 2040 Watching for file changes with StatReloader
+INFO 2026-04-21 04:30:33,996 autoreload 24552 2628 Watching for file changes with StatReloader
+INFO 2026-04-21 04:33:08,378 autoreload 24552 2628 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\back_agridecis\settings.py changed, reloading.
+INFO 2026-04-21 04:42:51,481 autoreload 25548 24244 Watching for file changes with StatReloader
+INFO 2026-04-21 04:43:28,512 middleware 25548 21476 GET / - Status: 404 - Duration: 0.017s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:43:28,516 middleware 25548 21476 Error response - GET / - Status: 404 - User: anonymous
+WARNING 2026-04-21 04:43:28,562 log 25548 21476 Not Found: /
+WARNING 2026-04-21 04:43:28,568 basehttp 25548 21476 "GET / HTTP/1.1" 404 3616
+INFO 2026-04-21 04:48:26,089 middleware 25548 21476 GET /api/ - Status: 200 - Duration: 0.004s - IP: 10.211.99.210 - User: anonymous
+INFO 2026-04-21 04:48:26,096 basehttp 25548 21476 "GET /api/ HTTP/1.1" 200 261
+ERROR 2026-04-21 04:49:18,406 exceptions 25548 21476 Unhandled exception: MethodNotAllowed: Méthode « GET » non autorisée. - Context: {'view': <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002011BBEB710>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/users/auth/login/'>}
+INFO 2026-04-21 04:49:18,407 middleware 25548 21476 GET /api/users/auth/login/ - Status: 500 - Duration: 0.003s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 04:49:18,408 middleware 25548 21476 Error response - GET /api/users/auth/login/ - Status: 500 - User: anonymous
+ERROR 2026-04-21 04:49:18,408 log 25548 21476 Internal Server Error: /api/users/auth/login/
+ERROR 2026-04-21 04:49:18,410 basehttp 25548 21476 "GET /api/users/auth/login/ HTTP/1.1" 500 86
+INFO 2026-04-21 04:57:46,211 autoreload 13680 21400 Watching for file changes with StatReloader
+INFO 2026-04-21 05:00:11,205 autoreload 3056 22924 Watching for file changes with StatReloader
+INFO 2026-04-21 05:12:05,136 autoreload 23592 20756 Watching for file changes with StatReloader
+INFO 2026-04-21 05:12:07,488 middleware 23592 13588 GET /api/ - Status: 200 - Duration: 0.001s - IP: 10.211.99.210 - User: anonymous
+INFO 2026-04-21 05:12:07,494 basehttp 23592 13588 "GET /api/ HTTP/1.1" 200 261
+INFO 2026-04-21 05:13:00,419 middleware 23592 13588 GET /auth/login/ - Status: 404 - Duration: 0.022s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:13:00,430 middleware 23592 13588 Error response - GET /auth/login/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 05:13:00,439 log 23592 13588 Not Found: /auth/login/
+WARNING 2026-04-21 05:13:00,483 basehttp 23592 13588 "GET /auth/login/ HTTP/1.1" 404 3667
+ERROR 2026-04-21 05:13:58,153 exceptions 23592 13588 Unhandled exception: MethodNotAllowed: Méthode « GET » non autorisée. - Context: {'view': <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000001CA4717FB50>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: GET '/api/users/auth/login/'>}
+INFO 2026-04-21 05:13:58,158 middleware 23592 13588 GET /api/users/auth/login/ - Status: 500 - Duration: 0.007s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:13:58,159 middleware 23592 13588 Error response - GET /api/users/auth/login/ - Status: 500 - User: anonymous
+ERROR 2026-04-21 05:13:58,167 log 23592 13588 Internal Server Error: /api/users/auth/login/
+ERROR 2026-04-21 05:13:58,174 basehttp 23592 13588 "GET /api/users/auth/login/ HTTP/1.1" 500 86
+INFO 2026-04-21 05:21:19,663 autoreload 13808 8796 Watching for file changes with StatReloader
+INFO 2026-04-21 05:25:18,651 autoreload 11420 11284 Watching for file changes with StatReloader
+INFO 2026-04-21 05:28:12,890 basehttp 11420 6024 "OPTIONS /api/users/auth/login/ HTTP/1.1" 200 0
+ERROR 2026-04-21 05:28:15,701 exceptions 11420 6024 Unhandled exception: AuthenticationFailed: Aucun compte actif n'a été trouvé avec les identifiants fournis - Context: {'view': <rest_framework_simplejwt.views.TokenObtainPairView object at 0x000002088A1EF890>, 'args': (), 'kwargs': {}, 'request': <rest_framework.request.Request: POST '/api/users/auth/login/'>}
+INFO 2026-04-21 05:28:15,701 middleware 11420 6024 POST /api/users/auth/login/ - Status: 500 - Duration: 2.774s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:28:15,701 middleware 11420 6024 Error response - POST /api/users/auth/login/ - Status: 500 - User: anonymous
+ERROR 2026-04-21 05:28:15,701 log 11420 6024 Internal Server Error: /api/users/auth/login/
+ERROR 2026-04-21 05:28:15,701 basehttp 11420 6024 "POST /api/users/auth/login/ HTTP/1.1" 500 86
+INFO 2026-04-21 05:39:34,481 autoreload 11420 11284 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:39:36,918 autoreload 3728 10272 Watching for file changes with StatReloader
+INFO 2026-04-21 05:39:39,096 autoreload 3728 10272 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:39:40,342 autoreload 6340 7364 Watching for file changes with StatReloader
+INFO 2026-04-21 05:39:50,666 autoreload 6340 7364 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:39:51,915 autoreload 6456 9492 Watching for file changes with StatReloader
+INFO 2026-04-21 05:39:57,115 autoreload 6456 9492 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:39:58,342 autoreload 10568 2560 Watching for file changes with StatReloader
+INFO 2026-04-21 05:40:11,013 autoreload 10568 2560 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:40:12,429 autoreload 2368 10336 Watching for file changes with StatReloader
+INFO 2026-04-21 05:40:18,263 autoreload 2368 10336 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:40:19,543 autoreload 11960 10860 Watching for file changes with StatReloader
+INFO 2026-04-21 05:41:00,866 autoreload 1140 2392 Watching for file changes with StatReloader
+INFO 2026-04-21 05:41:37,438 middleware 1140 10224 POST /api/users/auth/login/ - Status: 200 - Duration: 1.691s - IP: 10.211.99.210 - User: anonymous
+INFO 2026-04-21 05:41:37,438 basehttp 1140 10224 "POST /api/users/auth/login/ HTTP/1.1" 200 489
+INFO 2026-04-21 05:41:37,453 basehttp 1140 10224 "OPTIONS /api/users/auth/me/ HTTP/1.1" 200 0
+INFO 2026-04-21 05:41:37,469 middleware 1140 10224 GET /api/users/auth/me/ - Status: 200 - Duration: 0.016s - IP: 10.211.99.210 - User: admin@agrisdecis.com
+INFO 2026-04-21 05:41:37,469 basehttp 1140 10224 "GET /api/users/auth/me/ HTTP/1.1" 200 200
+INFO 2026-04-21 05:42:03,541 basehttp 1140 10224 "OPTIONS /api/admin/users/ HTTP/1.1" 200 0
+INFO 2026-04-21 05:42:03,632 middleware 1140 10224 GET /api/admin/users/ - Status: 404 - Duration: 0.091s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:42:03,632 middleware 1140 10224 Error response - GET /api/admin/users/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 05:42:03,635 log 1140 10224 Not Found: /api/admin/users/
+WARNING 2026-04-21 05:42:03,635 basehttp 1140 10224 "GET /api/admin/users/ HTTP/1.1" 404 3682
+INFO 2026-04-21 05:42:06,741 basehttp 1140 10224 "OPTIONS /api/contents/ HTTP/1.1" 200 0
+INFO 2026-04-21 05:42:06,824 middleware 1140 10224 GET /api/contents/ - Status: 200 - Duration: 0.083s - IP: 10.211.99.210 - User: admin@agrisdecis.com
+INFO 2026-04-21 05:42:06,825 basehttp 1140 10224 "GET /api/contents/ HTTP/1.1" 200 7354
+INFO 2026-04-21 05:42:17,223 basehttp 1140 10224 "OPTIONS /api/reports/ HTTP/1.1" 200 0
+INFO 2026-04-21 05:42:17,235 middleware 1140 10224 GET /api/reports/ - Status: 404 - Duration: 0.008s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:42:17,236 middleware 1140 10224 Error response - GET /api/reports/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 05:42:17,236 log 1140 10224 Not Found: /api/reports/
+WARNING 2026-04-21 05:42:17,238 basehttp 1140 10224 "GET /api/reports/ HTTP/1.1" 404 4076
+INFO 2026-04-21 05:42:19,383 basehttp 1140 10224 "OPTIONS /api/advices/ HTTP/1.1" 200 0
+INFO 2026-04-21 05:42:19,395 middleware 1140 10224 GET /api/advices/ - Status: 404 - Duration: 0.011s - IP: 10.211.99.210 - User: anonymous
+WARNING 2026-04-21 05:42:19,396 middleware 1140 10224 Error response - GET /api/advices/ - Status: 404 - User: anonymous
+WARNING 2026-04-21 05:42:19,396 log 1140 10224 Not Found: /api/advices/
+WARNING 2026-04-21 05:42:19,397 basehttp 1140 10224 "GET /api/advices/ HTTP/1.1" 404 3670
+INFO 2026-04-21 05:43:45,566 autoreload 1140 2392 C:\Users\DELLi5\Desktop\PROJET_GL\back_agridecis\users\signals.py changed, reloading.
+INFO 2026-04-21 05:43:47,027 autoreload 8772 13444 Watching for file changes with StatReloader

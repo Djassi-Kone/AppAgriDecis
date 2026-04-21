@@ -4,12 +4,16 @@ class User {
   final String nom;
   final String prenom;
   final String? telephone;
-  final String role; // ADMIN, AGRICULTEUR, AGRONOME
+  final String role; // admin, agronome, agriculteur
   final String? accessToken;
   final String? refreshToken;
   final DateTime? accessExpires;
   final DateTime? refreshExpires;
-  final String? dashboardUrl;
+  final String? specialite; // pour agronome
+  final String? localisation; // pour agriculteur
+  final String? typeCulture; // pour agriculteur
+  final String? profilePhoto;
+  final DateTime? dateCreation;
 
   User({
     required this.id,
@@ -22,22 +26,30 @@ class User {
     this.refreshToken,
     this.accessExpires,
     this.refreshExpires,
-    this.dashboardUrl,
+    this.specialite,
+    this.localisation,
+    this.typeCulture,
+    this.profilePhoto,
+    this.dateCreation,
   });
 
   String get fullName => '$prenom $nom';
 
-  // Pour Admin uniquement (pour l'instant)
-  bool get isAdminUser => role == 'ADMIN';
+  // Pour Admin uniquement
+  bool get isAdminUser => role == 'admin';
+  
+  bool get isAgriculteur => role == 'agriculteur';
+  
+  bool get isAgronome => role == 'agronome';
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      id: json['id'] ?? '',
+      id: json['id']?.toString() ?? '',
       email: json['email'] ?? '',
       nom: json['nom'] ?? '',
       prenom: json['prenom'] ?? '',
       telephone: json['telephone'],
-     role: json['role'] ?? 'AGRICULTEUR',
+     role: json['role'] ?? 'agriculteur',
       accessToken: json['access'],
       refreshToken: json['refresh'],
       accessExpires: json['access_expires'] != null 
@@ -46,7 +58,13 @@ class User {
       refreshExpires: json['refresh_expires'] != null 
           ? DateTime.parse(json['refresh_expires']) 
           : null,
-      dashboardUrl: json['dashboard_url'],
+      specialite: json['specialite'],
+      localisation: json['localisation'],
+      typeCulture: json['typeCulture'],
+      profilePhoto: json['profile_photo'],
+      dateCreation: json['dateCreation'] != null
+          ? DateTime.parse(json['dateCreation'])
+          : null,
     );
   }
 
@@ -62,7 +80,11 @@ class User {
       'refresh': refreshToken,
       'access_expires': accessExpires?.toIso8601String(),
       'refresh_expires': refreshExpires?.toIso8601String(),
-      'dashboard_url': dashboardUrl,
+      'specialite': specialite,
+      'localisation': localisation,
+      'typeCulture': typeCulture,
+      'profile_photo': profilePhoto,
+      'dateCreation': dateCreation?.toIso8601String(),
     };
   }
 
@@ -77,7 +99,11 @@ class User {
     String? refreshToken,
     DateTime? accessExpires,
     DateTime? refreshExpires,
-    String? dashboardUrl,
+    String? specialite,
+    String? localisation,
+    String? typeCulture,
+    String? profilePhoto,
+    DateTime? dateCreation,
   }) {
     return User(
       id: id ?? this.id,
@@ -90,7 +116,11 @@ class User {
       refreshToken: refreshToken ?? this.refreshToken,
       accessExpires: accessExpires ?? this.accessExpires,
       refreshExpires: refreshExpires ?? this.refreshExpires,
-      dashboardUrl: dashboardUrl ?? this.dashboardUrl,
+      specialite: specialite ?? this.specialite,
+      localisation: localisation ?? this.localisation,
+      typeCulture: typeCulture ?? this.typeCulture,
+      profilePhoto: profilePhoto ?? this.profilePhoto,
+      dateCreation: dateCreation ?? this.dateCreation,
     );
   }
 }
